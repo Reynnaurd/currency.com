@@ -1,0 +1,22 @@
+.HeaderMenuListChildUl {
+    display: flex;
+    white-space: nowrap;
+}
+
+@media screen and (min-width:320px){
+    li {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px){
+    li {
+        display: block;
+        margin-left:20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(210, 207, 207);
+    }
+}

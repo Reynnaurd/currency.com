@@ -1,0 +1,30 @@
+.HeaderChild {
+    width: 100%;
+    height: auto;
+    background:rgba(26,57,47);
+    background: radial-gradient(circle, rgba(26,57,47,1) 0%, rgba(3,14,1,1) 67%, rgba(4,13,0,1) 70%);
+}
+
+.headerContainer {
+    display: flex;
+}
+
+.headerLogoContainer {
+    display: flex;
+    justify-content: left;
+    width: 50%;
+}
+
+.headerLangContainer {
+    display: flex;
+    position: relative;
+    justify-content: right;
+    width: 50%;
+}
+
+/* Maybe i should change this later */
+@media screen and (max-width: 1024px) {
+    h1 {
+        height: auto;
+    }
+}
